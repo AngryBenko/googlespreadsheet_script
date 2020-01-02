@@ -16,8 +16,10 @@ This schedule started out very simple with minimal amount of workers and events.
 ![before](https://github.com/AngryBenko/googlespreadsheet_script/blob/master/images/before_schedule.png)
 
 This was the schedule that the team decided on that would fit the new workload. You can see the that different days have different colors and are seperated with a border. Stock numbers which are deliveries are colored as green, BFP are pink, and RETURNS are black. Previous dates are greyscaled. 
+
 ![wip](https://github.com/AngryBenko/googlespreadsheet_script/blob/master/images/wip_schedule.png)
 ![current](https://github.com/AngryBenko/googlespreadsheet_script/blob/master/images/current_schedule.png)
 
 All of these formatting changes can be applied using Google scripts onEdit() function. However, when there are many events filled into one spreadsheet, this can cause the script to run slow. To prevent this, I added a custom menu option that you can click to apply the changes after you are done editing the information on the spreadsheet.
+
 ![menu](https://github.com/AngryBenko/googlespreadsheet_script/blob/master/images/menu.png)
